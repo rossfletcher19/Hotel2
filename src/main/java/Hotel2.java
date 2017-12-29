@@ -15,7 +15,7 @@ public class Hotel2 {
             boolean summer = season.equals("summer");
             boolean weekend = dayOfWeek.equals("weekend");
 
-            if ( !(summer && weekend) ) {
+            if ( !(summer && weekend) ) {    // Here, we're simply stating "if it's not the summer and the weekend..."
                 System.out.println("You will likely get decent rates for your stay.");
             }
         }
