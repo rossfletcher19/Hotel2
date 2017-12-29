@@ -17,6 +17,10 @@ public class Hotel2 {
 
             if ( summer && weekend ) {
                 System.out.println("Your stay is probably going to be expensive. Its both peak travel season AND the Weekend.");
+            } else if ( summer ) {
+                System.out.println("Your stay is probably going to be expensive.");
+            } else if ( weekend ) {
+                System.out.println("Your stay is probably going to be expensive.");
             } else {
                 System.out.println("Your stay might be expensive, but its not during peak travel season, maybe in the winter??? BRRRRR!! So it could certainly be worse!");
             }
