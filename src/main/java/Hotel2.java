@@ -15,12 +15,8 @@ public class Hotel2 {
             boolean summer = season.equals("summer");
             boolean weekend = dayOfWeek.equals("weekend");
 
-            if ( summer && weekend ) {
-                System.out.println("Your stay is probably going to be expensive. Its both peak travel season AND the Weekend.");
-            } else if ( summer || weekend ) {
-                System.out.println("Your stay is probably going to be expensive.");
-            }  else {
-                System.out.println("Your stay might be expensive, but its not during peak travel season, maybe in the winter??? BRRRRR!! So it could certainly be worse!");
+            if ( !(summer && weekend) ) {
+                System.out.println("You will likely get decent rates for your stay.");
             }
         }
 
